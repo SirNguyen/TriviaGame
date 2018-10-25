@@ -1,0 +1,19 @@
+body {
+    background-image:
+    background-size: 100%;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    text-align: center;
+}
+
+header {
+    text-align: center;
+    font-size: 60px;
+}
+p {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 0px;
+  }
+
+

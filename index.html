@@ -1,25 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Trivia Game</title>
-    <script src="jquery-3.3.1.min.js"></script>
-    <link href="assets/css/style.css" rel="stylesheet">
-    
+    <link rel="stylesheet" type="text/css" href="../TriviaGame/assets/css/style.css">
 </head>
+
 <body>
-    <div class="heading">
-        <p>How much do you know about fighting games? You will have 10 seconds to answer each question. Are you a fighting game expert?</p>
-        <img src="assets/images/Fighting game trivia.jpg" id="trivia" alt="trivia">
-        <div class="main">
-            <h1 class="time">Time Left: </h1>
+    <header>Marvel Trivia Game!</header>
 
-        </div>
+    <p id="seconds"></p>
 
 
-    </div>
-    
+
+
+
+    <h1>Who is Tony Stark?</h1><br>
+    <form id="myForm1">
+        <input type="radio" name="choice" value="1" checked> Iron Man
+        <input type="radio" name="choice" value="2"> Hulk
+        <input type="radio" name="choice" value="3"> Hawkeye
+        <input type="radio" name="choice" value="4"> None of These
+    </form>
+
+    <h1>Who is Hulk?</h1><br>
+    <form id="myForm2">
+        <input type="radio" name="choice" value="Scripting" checked> Iron Man
+        <input type="radio" name="choice" value="Programming"> Hulk
+        <input type="radio" name="choice" value="Application"> Hawkeye
+        <input type="radio" name="choice" value="None of These"> None of These
+    </form>
+
+    <h1>Who is Hawkeye?</h1><br>
+    <form id="myForm3">
+        <input type="radio" name="choice" value="Scripting" checked> Iron Man
+        <input type="radio" name="choice" value="Programming"> Hulk
+        <input type="radio" name="choice" value="Application"> Hawkeye
+        <input type="radio" name="choice" value="None of These"> None of These
+    </form>
+
+    <h1>Who is Captain America?</h1><br>
+    <form id="myForm4">
+        <input type="radio" name="choice" value="Scripting" checked> Iron Man
+        <input type="radio" name="choice" value="Programming"> Hulk
+        <input type="radio" name="choice" value="Application"> Hawkeye
+        <input type="radio" name="choice" value="None of These"> None of These
+    </form>
+
+    <button onclick="submitAnswer()" submit answer>Submit Button</button>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous"></script>
+
+    <script src="../TriviaGame/assets/javascript/app.js"></script>
+
 </body>
+
 </html>
