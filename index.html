@@ -1,63 +1,36 @@
 <!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Trivia Game</title>
-    <link rel="stylesheet" type="text/css" href="../TriviaGame/assets/css/style.css">
-</head>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css">
 
-<body>
-    <header>Marvel Trivia Game!</header>
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+  </head>
+  <body>
 
-    <p id="seconds"></p>
+    <!-- Jumbotron -->
+    <div class="jumbotron">
+      <!-- Container -->
+      <div class="container">
+        <!-- Row -->
+        <div class="row">
+          <h1 class="text-center">Marvel Trivia</h1>
+          <div class="main-area col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+              <p class="text-center main-button">
+                  <a class="btn btn-primary btn-lg start-button text-center" href="#">Start!</a>
+              </p>
+          </div>
+        </div><!-- /Row -->
+      </div> <!-- /Container -->
+    </div> <!-- /Jumbotron -->
 
-
-
-
-
-    <h1>Who is Tony Stark?</h1><br>
-    <form id="myForm1">
-        <input type="radio" name="choice" value="1" checked> Iron Man
-        <input type="radio" name="choice" value="2"> Hulk
-        <input type="radio" name="choice" value="3"> Hawkeye
-        <input type="radio" name="choice" value="4"> None of These
-    </form>
-
-    <h1>Who is Hulk?</h1><br>
-    <form id="myForm2">
-        <input type="radio" name="choice" value="Scripting" checked> Iron Man
-        <input type="radio" name="choice" value="Programming"> Hulk
-        <input type="radio" name="choice" value="Application"> Hawkeye
-        <input type="radio" name="choice" value="None of These"> None of These
-    </form>
-
-    <h1>Who is Hawkeye?</h1><br>
-    <form id="myForm3">
-        <input type="radio" name="choice" value="Scripting" checked> Iron Man
-        <input type="radio" name="choice" value="Programming"> Hulk
-        <input type="radio" name="choice" value="Application"> Hawkeye
-        <input type="radio" name="choice" value="None of These"> None of These
-    </form>
-
-    <h1>Who is Captain America?</h1><br>
-    <form id="myForm4">
-        <input type="radio" name="choice" value="Scripting" checked> Iron Man
-        <input type="radio" name="choice" value="Programming"> Hulk
-        <input type="radio" name="choice" value="Application"> Hawkeye
-        <input type="radio" name="choice" value="None of These"> None of These
-    </form>
-
-    <button onclick="submitAnswer()" submit answer>Submit Button</button>
-
-
-    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
-        crossorigin="anonymous"></script>
-
-    <script src="../TriviaGame/assets/javascript/app.js"></script>
-
-</body>
-
+    <!-- My javascript -->
+    <script type="text/javascript" src="./assets/javascript/app.js"></script>
+  </body>
 </html>
